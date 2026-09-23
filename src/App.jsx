@@ -6,7 +6,7 @@ import NoPage from "./pages/NoPage/NoPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Around-The-World">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
